@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:riv_corner_radius="50dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_avatar"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_profile_gray"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/user_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/user_avatar"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/user_country"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/gray"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/user_avatar"
+        android:layout_below="@+id/user_nickname"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/gray"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/user_avatar"
+        android:text=""
+        android:layout_below="@+id/user_country"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/SEPARATER_BCOLOR"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

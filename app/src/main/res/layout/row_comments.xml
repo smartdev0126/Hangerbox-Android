@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comlayout"
+        android:background="@drawable/customborder">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/loadcomment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_profile_gray" />
+
+        <TextView
+            android:id="@+id/commenttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/loadcomment"
+            android:layout_toRightOf="@id/loadcomment"
+            android:text="Actual Comment"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/commenttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/commenttext"
+            android:layout_toEndOf="@id/loadcomment"
+            android:layout_toRightOf="@id/loadcomment"
+            android:text="12/06/19" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/comlayout"
+        android:id="@+id/replayout"
+        android:visibility="gone"
+        android:background="@drawable/customborder">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/repuavatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_profile_gray" />
+
+        <TextView
+            android:id="@+id/repcommenttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/repuavatar"
+            android:layout_toRightOf="@id/repuavatar"
+            android:text="Actual Comment"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/repcommenttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repcommenttext"
+            android:layout_toEndOf="@id/repuavatar"
+            android:layout_toRightOf="@id/repuavatar"
+            android:text="12/06/19" />
+    </RelativeLayout>
+</RelativeLayout>

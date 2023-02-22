@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name" translatable="false">Hanger Box</string>
+    <string name="file_provider_name" translatable="false">.fileProvider</string>
+    <string name="admob_publisher_id">pub-1621859766745560</string>
+    <string name="admob_app_id">ca-app-pub-1621859766745560~8596656618</string>
+    <string name="admob_banner_live_id">ca-app-pub-1621859766745560/9335023212</string>
+
+    <!--　共通　-->
+    <string name="error_title">Error</string>
+    <string name="warning_title">Warning！</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="ALL">All</string>
+    <string name="more">More</string>
+    <string name="version_num">Version 2.0.4</string>
+    <string name="share_desc">Hanger Box is an app that allows you to coordinate fashion.</string>
+    <string name="error_input_email">Please enter your email address as required.</string>
+    <string name="error_input_image">Please set the required image.</string>
+    <string name="error_input_codi_image">Please set the required image for Photo 1.</string>
+    <string name="error_input_category">Please enter the required category.</string>
+    <string name="error_input_password">Please enter the password as required.</string>
+    <string name="error_show_account">The person who posted it cannot be found.</string>
+    <string name="error_access">The connection to the server has failed.</string>
+    <string name="error_show_content">The posted content cannot be found.</string>
+    <string name="error_favorite">Please add one item at least.</string>
+    <string name="error_item_image">The image link is incorrect.</string>
+    <string name="error_password_sns">You cannot change your password when registering on SNS.</string>
+    <string name="error_current_password">Please enter your current password</string>
+    <string name="error_new_password">Please enter your new password</string>
+    <string name="error_password_num"> <![CDATA[Please enter the password. \nA minimum of 6 characters is required.]]></string>
+    <string name="error_password_match">The passwords do not match.</string>
+    <string name="error_comment">Failed to add a comment.</string>
+
+    <string name="alert_delete_account_title">Delete Account</string>
+    <string name="alert_delete_account_msg">If you delete your account, all information such as your information will be deleted and you will not be able to access HangerBox. Do you want to delete your account?</string>
+    <string name="alert_delete_item_title">Delete Item</string>
+    <string name="alert_delete_item_msg">Do you want to delete the item?</string>
+    <string name="alert_delete_library_title">Delete Library</string>
+    <string name="alert_delete_library_msg">Do you want to delete the library?</string>
+    <string name="alert_delete_favorite_title">Delete Favorite</string>
+    <string name="alert_delete_favorite_msg">Do you want to delete the favorite?</string>
+
+    <string-array name="image_types">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>ATS</item>
+        <item>BEF</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>DKK</item>
+        <item>EGP</item>
+        <item>XEU</item>
+        <item>FIM</item>
+        <item>FRF</item>
+        <item>DEM</item>
+        <item>GRD</item>
+        <item>HKD</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>IEP</item>
+        <item>ILS</item>
+        <item>ITL</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>LUF</item>
+        <item>MYR</item>
+        <item>MXP</item>
+        <item>NLG</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>PTE</item>
+        <item>RUR</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>ESP</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>TWD</item>
+        <item>THB</item>
+        <item>TRL</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string name="loading">Loading・・・</string>
+
+    <!--　ログイン/登録　-->
+    <string name="login">Log In</string>
+    <string name="logo_desc">It will not be posted without permission from this application.</string>
+    <string name="login_desc">Do you want to register new?</string>
+    <string name="login_next1">Please agree to </string>
+    <string name="login_next2">Privacy Policy</string>
+    <string name="login_next3"> for proceed the "Next".</string>
+    <string name="login_skip">SKIP</string>
+    <string name="login_next_btn">Next</string>
+    <string name="login_forgot_password">Did you forget your password?</string>
+    <string name="login_forgot_password_btn">Please click here</string>
+    <string name="register">REGISTER</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_btn">Send password reset email</string>
+    <string name="register_desc">Who has an account?</string>
+    <string name="register_to">Register</string>
+    <!--    <string name="default_web_client_id">871694309605-relp710d2e8ep45psbe3n23t3uujvueh.apps.googleusercontent.com</string>-->
+    <string name="facebook_app_id">2329282080720591</string>
+    <string name="facebook_login_protocol_scheme">fb2329282080720591</string>
+    <string name="fb_app_name">hangerbox</string>
+    <string name="fb_client_token">d20c174dcbef967ff36d47d8463a161d</string>
+
+    <!--　クリエイト　-->
+    <string name="add_favorite">Add to Favourites</string>
+
+    <!--　アイテム追加　-->
+    <string name="select_category">Please select a category</string>
+    <string name="empty_items1">No saved items</string>
+    <string name="empty_items2">You can add new items from the following method.</string>
+    <string name="add_item_title">Add Item</string>
+    <string name="edit_item_title">Edit Item</string>
+    <string name="detail_item_title">Item details</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="link">Link</string>
+    <string name="image_link">Image addres</string>
+    <string name="shop_link">Link of shop</string>
+    <string name="category">Category</string>
+    <string name="affiliate_url">Affiliate link</string>
+    <string name="brand">Brand</string>
+    <string name="price">Price</string>
+    <string name="currency">Currency</string>
+    <string name="comment">Write a caption</string>
+    <string name="empty_comment">You have entered an empty comment</string>
+    <string name="url_format">http://... or https://...</string>
+
+    <!--　お気に入り　-->
+    <string name="edit_favorite_title">Edit favorite</string>
+    <string name="detail_favorite_title">Favorite details</string>
+    <string name="delete_favorite">Remove favorite</string>
+    <string name="empty_favorite">Favorites have not been added yet.</string>
+
+    <!--　画像編集　-->
+    <string name="edit_image_title">Edit Image</string>
+
+    <!--　Home　-->
+    <string name="create_nav_title">Create</string>
+    <string name="favorite_nav_title">Favorites</string>
+    <string name="my_items_nav_title">My Items</string>
+    <string name="libraries_nav_title">Libraries</string>
+    <string name="my_page_nav_title">My page</string>
+    <string name="setting">Setting</string>
+    <string name="setting_title">Personal Settings</string>
+    <string name="terms_menu_title">Term and Use</string>
+
+    <!--　設定　-->
+    <string name="menu_change_profile">Edit Profile</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="menu_link_image">How to copy an image link</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_company">Company Overview</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="user_nickname">nickname</string>
+    <string name="user_country">country name</string>
+    <string name="user_profile">profile</string>
+    <string name="show_followers">Followers</string>
+    <string name="show_followings">Following</string>
+    <string name="btn_follow">Follow</string>
+    <string name="btn_following">Following</string>
+
+    <!--　プロフィール設定　-->
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="account_delete">Delete Account</string>
+
+    <!--　パスワード変更　-->
+    <string name="title_change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_new_password">Reenter New Password</string>
+
+    <!--　画像リンクのコピーの仕方　-->
+    <string name="title_browser_install1">From GOOGLE PLAY</string>
+    <string name="title_browser_install2">install Firefox browser</string>
+    <string name="title_save_image">Press and hold the image you want to save</string>
+    <string name="title_copy_image">Select "Copy image URL"</string>
+
+    <!--　弊社概要　-->
+    <string name="title_app_version">Version</string>
+    <string name="title_app_name">App Name</string>
+    <string name="title_email">Email Address</string>
+    <string name="title_website">Website</string>
+
+    <!--　プロフィール　-->
+    <string name="title_profile">Profile</string>
+
+    <!--　ライブラリー　-->
+    <string name="tag_search_placeholder">Enter the search "tag"</string>
+    <string name="tab_all">ALL</string>
+    <string name="tab_my_library">My Libraries</string>
+    <string name="empty_library">No saved library</string>
+    <string name="add_library_title">Add Library</string>
+    <string name="edit_library_title">Edit Library</string>
+    <string name="detail_library_title">Library Details</string>
+    <string name="add_library_item">Select an item from My Items</string>
+    <string name="add_codi_img_1">You can add Photo 1</string>
+    <string name="add_codi_comment_1">Photo 1</string>
+    <string name="add_codi_img_2">You can add Photo 2</string>
+    <string name="add_codi_comment_2">Photo 2</string>
+    <string name="tag_title">Tag</string>
+    <string name="tag_desc">Added a search tag (eg dress).</string>
+    <string name="tag_add_btn">Add</string>
+    <string name="tag_desc2">※Multiple tags are possible.</string>
+    <string name="share">SHARE</string>
+    <string name="library_affiliate">Product page</string>
+    <string name="show_num_pre">Views:</string>
+    <string name="show_num">times</string>
+    <string name="delete_comment">Do you want to delete comment?</string>
+    <string name="reply_comment">Reply to this comment...</string>
+</resources>

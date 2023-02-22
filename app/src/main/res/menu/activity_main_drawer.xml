@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuChangeProfile"
+        android:title="@string/menu_change_profile" />
+    <item
+        android:id="@+id/menuChangePassword"
+        android:title="@string/menu_change_password" />
+    <item
+        android:id="@+id/menuLinkImage"
+        android:title="@string/menu_link_image" />
+    <item
+        android:id="@+id/menuPrivacy"
+        android:title="@string/menu_privacy" />
+    <item
+        android:id="@+id/menuCompany"
+        android:title="@string/menu_company" />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/menu_logout" />
+</menu>

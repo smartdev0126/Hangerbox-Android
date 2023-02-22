@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/back_round.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/border_avatar.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/border_avatar2.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/border_loading.xml" value="0.319" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/border_round_text.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/border_text.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/bottom_nav_color.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/customborder.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/round_btn.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/drawable/unreadstatus.xml" value="0.148" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_add_item.xml" value="0.22" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_add_library.xml" value="0.14" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_change_password.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_favorite_detail.xml" value="0.18177083333333333" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_forgot_password.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_intro.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_item_select.xml" value="0.26268115942028986" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_login.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_main.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_postdetails.xml" value="0.26268115942028986" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_profile_edit.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_splash.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/activity_user_profile.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/custom_use.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/customborder.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/dialog_reply.xml" value="0.22010869565217392" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/follow_cell.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/fragment_create.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/fragment_favorite.xml" value="0.26268115942028986" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/fragment_libraries.xml" value="0.5" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/fragment_my_items.xml" value="0.18177083333333333" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/fragment_my_page.xml" value="0.20208333333333334" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/item_cell.xml" value="0.18177083333333333" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/item_comment.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/item_reply.xml" value="0.25" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/row_comments.xml" value="0.25" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/row_reply.xml" value="0.31197916666666664" />
+        <entry key="..\:/Project/PR2/HangerBoxAndroid/app/src/main/res/layout/unreadpost.xml" value="0.31197916666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

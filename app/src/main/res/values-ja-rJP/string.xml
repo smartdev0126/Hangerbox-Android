@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name" translatable="false">Hanger Box</string>
+    <string name="file_provider_name" translatable="false">.fileProvider</string>
+    <string name="admob_publisher_id">pub-1621859766745560</string>
+    <string name="admob_app_id">ca-app-pub-1621859766745560~8596656618</string>
+    <string name="admob_banner_live_id">ca-app-pub-1621859766745560/9335023212</string>
+
+    <!--　共通　-->
+    <string name="error_title">エラー</string>
+    <string name="warning_title">注意！</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">キャンセル</string>
+    <string name="YES">はい</string>
+    <string name="NO">いいえ</string>
+    <string name="ALL">全て</string>
+    <string name="more">もっと見る</string>
+    <string name="share_desc">ハンガーボックスはファッションコーディネートできるアプリです。</string>
+    <string name="version_num">バージョン 2.0.4</string>
+    <string name="error_input_email">メールアドレスは必須入力してください。</string>
+    <string name="error_input_image">画像は必須入力してください。</string>
+    <string name="error_input_codi_image">コーディネート①の画像は必須入力してください。</string>
+    <string name="error_input_category">カテゴリーは必須入力してください。</string>
+    <string name="error_input_password">パスワードは必須入力してください。</string>
+    <string name="error_access">サーバへの接続が失敗しました。</string>
+    <string name="error_favorite">最低、１つのアイテムを追加してください。</string>
+    <string name="error_item_image">画像のリンクが正しくありません。</string>
+    <string name="error_password_sns">SNS登録の場合にはパスワードを変更することができません。</string>
+    <string name="error_show_content">投稿したコンテンツが見つかりません。</string>
+    <string name="error_show_account">投稿した人が見つかりません。</string>
+    <string name="error_current_password">現在のパスワードを入力して下さい</string>
+    <string name="error_new_password">新しいパスワードを入力して下さい</string>
+    <string name="error_password_num">パスワードを入力して下さい。最低6文字が必要です。</string>
+    <string name="error_password_match">パスワードが一致しません。</string>
+
+    <string name="alert_delete_account_title">アカウントの削除</string>
+    <string name="alert_delete_account_msg">アカウントを削除されますと、お客様の情報などすべての情報が削除され、HangerBoxにアクセルできなくなります。アカウントを削除しますか？</string>
+    <string name="alert_delete_item_title">アイテムの削除</string>
+    <string name="alert_delete_item_msg">アイテムを本当に削除しますか？</string>
+    <string name="alert_delete_library_title">ライブラリーの削除</string>
+    <string name="alert_delete_library_msg">ライブラリーを本当に削除しますか？</string>
+    <string name="alert_delete_favorite_title">お気に入りの削除</string>
+    <string name="alert_delete_favorite_msg">お気に入りを本当に削除しますか？</string>
+    <string name="empty_comment">空のコメントを入力しました</string>
+    <string name="error_comment">コメントの追加に失敗しました</string>
+    <string name="delete_comment">コメントを削除しますか？</string>
+    <string name="reply_comment">このコメントに返信...</string>
+
+    <string-array name="image_types">
+        <item>カメラ</item>
+        <item>ギャラリー</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>ATS</item>
+        <item>BEF</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>DKK</item>
+        <item>EGP</item>
+        <item>XEU</item>
+        <item>FIM</item>
+        <item>FRF</item>
+        <item>DEM</item>
+        <item>GRD</item>
+        <item>HKD</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>IEP</item>
+        <item>ILS</item>
+        <item>ITL</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>LUF</item>
+        <item>MYR</item>
+        <item>MXP</item>
+        <item>NLG</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>PTE</item>
+        <item>RUR</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>ESP</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>TWD</item>
+        <item>THB</item>
+        <item>TRL</item>
+        <item>GBP</item>
+    </string-array>
+
+    <string name="loading">接続中・・・</string>
+
+    <!--　ログイン/登録　-->
+    <string name="login">ログイン</string>
+    <string name="logo_desc">本アプリから許可なくして、投稿されることはありません。</string>
+    <string name="login_desc">新規登録しますか？</string>
+    <string name="login_next1">「次へ」進むと、</string>
+    <string name="login_next2">プライバシーポリシー</string>
+    <string name="login_next3">に同意したとみなします。</string>
+    <string name="login_skip">スキップ</string>
+    <string name="login_next_btn">次へ</string>
+    <string name="login_forgot_password">パスワードをお忘れですか？</string>
+    <string name="login_forgot_password_btn">ここをクリック</string>
+    <string name="register">新規登録</string>
+    <string name="email">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="reset_password">パスワードの再設定</string>
+    <string name="reset_password_btn">パスワード再設定メールを送信する</string>
+    <string name="register_desc">アカウントをお持ちの方は？</string>
+    <string name="register_to">登録する</string>
+    <!--    <string name="default_web_client_id">871694309605-relp710d2e8ep45psbe3n23t3uujvueh.apps.googleusercontent.com</string>-->
+    <string name="facebook_app_id">2329282080720591</string>
+    <string name="facebook_login_protocol_scheme">fb2329282080720591</string>
+    <string name="fb_app_name">hangerbox</string>
+    <string name="fb_client_token">d20c174dcbef967ff36d47d8463a161d</string>
+
+    <!--　クリエイト　-->
+    <string name="add_favorite">お気に入りに追加</string>
+
+    <!--　アイテム追加　-->
+    <string name="select_category">カテゴリーを選択してください</string>
+    <string name="empty_items1">保存されたアイテムはありません</string>
+    <string name="empty_items2">以下の項目から新しいアイテムを追加できます。</string>
+    <string name="add_item_title">アイテムの追加</string>
+    <string name="edit_item_title">アイテムの編集</string>
+    <string name="detail_item_title">アイテムの詳細</string>
+    <string name="camera">カメラ</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="link">リンク</string>
+    <string name="image_link">画像のリンク</string>
+    <string name="shop_link">ショップのリンク</string>
+    <string name="category">カテゴリー</string>
+    <string name="affiliate_url">アフィリエイトリンク</string>
+    <string name="brand">ブランド</string>
+    <string name="price">価格</string>
+    <string name="currency">通貨</string>
+    <string name="comment">コメント</string>
+    <string name="url_format">http://... or https://...</string>
+
+    <!--　お気に入り　-->
+    <string name="edit_favorite_title">お気に入りの編集</string>
+    <string name="detail_favorite_title">お気に入りの詳細</string>
+    <string name="delete_favorite">お気に入りを外す</string>
+    <string name="empty_favorite">お気に入りはまだ追加されていません。</string>
+
+    <!--　画像編集　-->
+    <string name="edit_image_title">画像編集</string>
+
+    <!--　Home　-->
+    <string name="create_nav_title">クリエイト</string>
+    <string name="favorite_nav_title">お気に入り</string>
+    <string name="my_items_nav_title">マイアイテム</string>
+    <string name="libraries_nav_title">ライブラリー</string>
+    <string name="my_page_nav_title">マイページ</string>
+    <string name="setting">設  定</string>
+    <string name="setting_title">個人設定</string>
+    <string name="terms_menu_title">利用規約</string>
+
+    <!--　設定　-->
+    <string name="menu_change_profile">プロフィール設定</string>
+    <string name="menu_change_password">パスワード変更</string>
+    <string name="menu_link_image">画像リンクのコピーの仕方</string>
+    <string name="menu_privacy">プライバシーポリシー</string>
+    <string name="menu_company">弊社概要</string>
+    <string name="menu_logout">ログアウト</string>
+    <string name="user_nickname">ニックネーム</string>
+    <string name="user_country">国名</string>
+    <string name="user_profile">プロフィール</string>
+    <string name="show_followers">フォロー</string>
+    <string name="show_followings">フォロワー</string>
+    <string name="btn_follow">フォローする</string>
+    <string name="btn_following">フォロー中</string>
+
+    <!--　プロフィール設定　-->
+    <string name="title_edit_profile">プロフィール設定</string>
+    <string name="account_delete">アカウントの削除</string>
+
+    <!--　パスワード変更　-->
+    <string name="title_change_password">パスワード変更</string>
+    <string name="current_password">現在のパスワード</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="re_new_password">新しいパスワード（再入力）</string>
+
+    <!--　画像リンクのコピーの仕方　-->
+    <string name="title_browser_install1">GOOGLE PLAYから</string>
+    <string name="title_browser_install2">Firefoxブラウザーをインストール</string>
+    <string name="title_save_image">保存したい画像を長押し</string>
+    <string name="title_copy_image">「画像のURLをコピー」を選択</string>
+
+    <!--　弊社概要　-->
+    <string name="title_app_version">バージョン</string>
+    <string name="title_app_name">アプリ名</string>
+    <string name="title_email">メール</string>
+    <string name="title_website">ウェブサイト</string>
+
+    <!--　プロフィール　-->
+    <string name="title_profile">プロフィール</string>
+
+    <!--　ライブラリー　-->
+    <string name="tag_search_placeholder">検索「タグ」を入力してください</string>
+    <string name="tab_all">ALL</string>
+    <string name="tab_my_library">マイライブラリー</string>
+    <string name="empty_library">保存されたライブラリーはありません</string>
+    <string name="add_library_title">ライブラリー追加</string>
+    <string name="edit_library_title">ライブラリー編集</string>
+    <string name="detail_library_title">ライブラリー詳細</string>
+    <string name="add_library_item">マイアイテムからアイテムを選択</string>
+    <string name="add_codi_img_1">コーディネート①を追加できます。</string>
+    <string name="add_codi_comment_1">コーディネート①のコメント</string>
+    <string name="add_codi_img_2">コーディネート②を追加できます。</string>
+    <string name="add_codi_comment_2">コーディネート②のコメント</string>
+    <string name="tag_title">タグ</string>
+    <string name="tag_desc">検索用のタグ（例　ワンピース）を追加。</string>
+    <string name="tag_add_btn">追加</string>
+    <string name="tag_desc2">※タグは複数可能です。</string>
+    <string name="share">SHARE</string>
+    <string name="library_affiliate">商品ページ</string>
+    <string name="show_num_pre">閲覧回数:</string>
+    <string name="show_num">回</string>
+
+</resources>
+

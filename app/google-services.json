@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "871694309605",
+    "project_id": "hangerbox-236011",
+    "storage_bucket": "hangerbox-236011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871694309605:android:920810cb8f540fb779dc0c",
+        "android_client_info": {
+          "package_name": "com.hanger_box"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871694309605-57qmfnng9r59fnja5ha4ct2vhui8uq2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanger_box",
+            "certificate_hash": "78d72b9c98229b417961c95cd4c2e5b854121799"
+          }
+        },
+        {
+          "client_id": "871694309605-relp710d2e8ep45psbe3n23t3uujvueh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2rJWbVEoqcnhuzw5ofBAwnRIjFhidEOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871694309605-nvbu6vc3e31q9gstpm2lghiu15b35kqu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "871694309605-v0e2u02r8j8lncu5noe459t0180ctv4c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hanger_box"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
